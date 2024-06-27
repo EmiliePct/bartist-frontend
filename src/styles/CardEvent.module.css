@@ -1,0 +1,99 @@
+
+.card {
+    width: 300px;
+    height: 530px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #06013f86;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    transition: 300ms;
+}
+
+.card:hover{
+    transition: 300ms;
+    cursor: pointer;
+    transform: scale(1.01);
+    border: 1px solid #007bff
+}
+
+
+
+
+.cardInfo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dateContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    background-color: #007bff;
+}
+
+.day{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3px;
+
+}
+
+.month{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+
+.year{
+    font-size: 20px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.secondContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.genres{
+    display: flex;
+    gap: 10px;
+
+    height: fit-content;
+}
+
+.genre{
+    background-color: #ff2a00;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}

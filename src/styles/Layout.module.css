@@ -1,0 +1,145 @@
+.blurBg {
+    background-size: cover;
+    background-image: url("../../public/assets/background.png");
+}
+
+.main {
+    z-index: 2;
+    display: flex;
+    height: 100vh;
+    background-color: #06013f57;
+    backdrop-filter: blur(100px);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.sideMenu {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    background-color: #06013f0d;
+    border: 2px rgba(47, 47, 47, 0.362) solid;
+    justify-content: space-between;
+    height: 90%;
+    border-radius: 0px 0px 30px;
+    padding: 50px 0;
+}
+
+.center {
+    display: flex;
+    flex: 0.95;
+    flex-direction: column;
+    background-color: transparent;
+    height: 100%;
+
+}
+
+.header {
+    display: flex;
+    flex: 0.05;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.content {
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 0 30px;
+    background-color: transparent;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    flex: 0.50;
+    justify-content: flex-start;
+}
+
+.rightContent {
+    margin-top: 10px;
+    margin-right: 20px;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex: 1;
+}
+
+.name {
+    font-size: 12px;
+    color: white
+}
+
+.button {
+    padding: 5px 10px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoName {
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.logoName>span {
+    color: #3F88C5
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.imgContainer {
+    min-width: 40px;
+    min-height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.selected {
+    box-sizing: border-box;
+    box-shadow: inset 20px 0px 15px #3f89c56f;
+    ;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoutButton {
+    align-self: center;
+    width: fit-content;
+}
+
+.menuItem {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #d13cf6;
+    width: fit-content;
+}

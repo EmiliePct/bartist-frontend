@@ -1,0 +1,98 @@
+.main{
+    margin-top: 50px;
+    width: 100%;
+    max-height: 800px;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: transparent;
+    letter-spacing: 1px;
+    overflow: scroll;
+    overflow-x: visible;
+}
+
+.titleContainer{
+    width: 100%;
+}
+
+.title{
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.bookings{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    max-height: 600px;
+    width: 100%;
+    padding: 30px;
+    overflow-y: scroll;
+    overflow-x: visible;
+
+}
+.bookingsTitleContainer{
+    margin-top: 30px;
+}
+.bookingTitle{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hints{
+    display: grid;
+    padding: 5px 10px;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: #555 1px solid;
+}
+
+.hint{
+    text-align: center;
+    font-size: 12px;
+    color: #c5c5c5;
+}
+
+.bookingList{
+  margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Styling the scrollbar for Webkit browsers */
+.bookings::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .bookings::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .bookings::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .bookings::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .bookStatus{
+    align-self: center;
+    font-size: 20px;
+  }
+
+  .separator{
+    width: 100%;
+  }
