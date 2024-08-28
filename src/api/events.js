@@ -19,17 +19,18 @@ export const createEvent = async (
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        token: token,
-        title: title,
-        description: description,
-        date: date,
+        token,
+        title,
+        description,
+        date,
         hour_start: moment(hour_start._d).format("LT"),
-        picture: picture,
-        genres: genres,
-        status: status,
-        facebook: facebook,
-        instagram: instagram,
-        genres: genres,
+        picture,
+        genres,
+        status,
+        socials: {
+          facebook,
+          instagram
+       }
       }),
     });
     const data = await response.json();
